@@ -9,7 +9,6 @@ import {
 } from "drizzle-orm/pg-core";
 
 import { relations } from "drizzle-orm";
-import { unique } from "drizzle-orm/gel-core";
 
 export type OrderStatus = "pending" | "paid" | "failed";
 export type UserRole = "customer" | "support" | "admin";
