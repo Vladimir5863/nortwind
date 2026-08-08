@@ -4,11 +4,11 @@ import { useQuery } from "@tanstack/react-query";
 import { Show } from "@clerk/react";
 import {
 	StoreIcon,
-	LogInIcon,
+	//LogInIcon,
 	PackageIcon,
 	SettingsIcon,
 	ShoppingBagIcon,
-	ShoppingCartIcon,
+	//ShoppingCartIcon,
 } from "lucide-react";
 import { Link } from "react-router";
 export default function Navbar() {

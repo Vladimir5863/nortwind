@@ -5,7 +5,7 @@ const raw: any = import.meta.env.VITE_API_URL;
 const base: string = typeof raw === "string" ? raw.replace(/\/+$/, "") : "";
 
 type ApiFetchOptions = {
-	getToken?: () => string | Promise<string | undefined> | undefined;
+	getToken?: () => Promise<string | null>;
 	method?: string;
 	body?: unknown;
 };

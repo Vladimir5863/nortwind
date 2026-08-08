@@ -1,7 +1,8 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import type { ReactNode } from "react";
 
-export default function Layout({ children }) {
+export default function Layout({ children }: { children: ReactNode }) {
 	return (
 		<div className="flex min-h-svh flex-col bg-base-200 text-base-content">
 			<Navbar />
