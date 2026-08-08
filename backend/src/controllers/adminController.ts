@@ -91,7 +91,7 @@ export function getImageKitAuth(
 }
 
 export async function listAdminProducts(
-	req: Request,
+	_req: Request,
 	res: Response,
 	next: NextFunction,
 ) {
